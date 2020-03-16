@@ -70,7 +70,7 @@ public class TesteLeilao {
                 .lance(billGates, 9000)
                 .lance(steveJobs, 10000)
                 .lance(billGates, 11000)
-                // lance de ser ignorado
+                // lance deve ser ignorado
                 .lance(steveJobs, 12000)
                 .constroi();
 
